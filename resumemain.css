@@ -6,6 +6,19 @@
     justify-content: space-between;
     margin-top: 2%;
 }
+.mainheadtitle{
+    margin: auto;
+    text-transform: uppercase;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.mainheadtitle:hover{
+    color: green;
+    font-weight: 900;
+    
+}
+
 
 .linav{
     list-style-type: none;
@@ -15,8 +28,13 @@
     margin: auto 10px;
     font-family: 'Courier New', Courier, monospace;
     cursor: pointer;
-
+    font-weight: bold;
+    
 }
+.linav>li:hover{
+    text-decoration: underline;
+    color: green;
+}  
 
 .content-center{
     display: flex;
@@ -61,7 +79,8 @@
 }
 
 .navbtn:hover{
-   transform: scale(2);
+    transform: translate(50px, 100px);
+    background-color: rgb(2, 70, 25);
 }
 
 .maincontentdiv{
